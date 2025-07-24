@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXGromoreAdapter'
-  s.version          = '7.0.0.1.0'
+  s.version          = '7.0.0.1.1'
   s.summary          = 'UBiX聚合Sass SDK Gromore Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
