@@ -1,0 +1,6 @@
+framework module UBiMAXGromoreAdapter {
+  umbrella header "UBiMAXGromoreAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
