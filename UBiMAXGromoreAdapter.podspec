@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.static_framework = true
-  s.vendored_frameworks = 'UBiMAXGromoreAdapter.framework'
+  s.vendored_frameworks = 'UBiMAXGromoreAdapter.xcframework'
 
  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-   'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
+   'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 
  s.dependency 'Ads-CN-Beta/BUAdSDK', '7.6.0.3'
  s.dependency 'Ads-CN-Beta/CSJMediation', '7.6.0.3'
