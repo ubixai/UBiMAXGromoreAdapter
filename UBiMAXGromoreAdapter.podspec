@@ -1,6 +1,7 @@
+
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXGromoreAdapter'
-  s.version          = '7.6.0.3.0'
+  s.version          = '7.6.0.4.0'
   s.summary          = 'UBiX聚合Sass SDK Gromore Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
 
@@ -13,10 +14,10 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'UBiMAXGromoreAdapter.xcframework'
 
  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-   'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
+   'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
 
- s.dependency 'Ads-CN-Beta/BUAdSDK', '7.6.0.3'
- s.dependency 'Ads-CN-Beta/CSJMediation', '7.6.0.3'
+ s.dependency 'Ads-CN/BUAdSDK', '7.6.0.4'
+ s.dependency 'Ads-CN/CSJMediation', '7.6.0.4'
 
  s.dependency 'UBiMAXAdSDK'
  s.dependency 'UBiMAXNative'
